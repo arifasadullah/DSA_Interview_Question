@@ -7,6 +7,8 @@ public class test{
 	printArr(arr);
  
  }
+ 
+ //quickSort main function
  public static void quickSort(int[] arr,int low,int high){
 	 if(low<high){
 		 int pivot=findPivot(arr,low,high);
@@ -15,6 +17,8 @@ public class test{
 		 }
 	 
   }
+  
+  //function for finding the pivot
   public static int findPivot(int[]arr,int low,int high){
 	  int pivot=arr[high];
 	
@@ -33,6 +37,8 @@ public class test{
 	  arr[i+1]=temp;
 	  return i+1;
   }
+  
+  //printing the array
   public static void printArr(int[] arr){
 	  for(int el:arr){
 		  
