@@ -9,12 +9,14 @@ public class SelectionSort{
         printArr(arr);
 
     }
+	//selection sort function
     public static void selectionSort(int[] arr){
         int n=arr.length;
         for(int i=0;i<n;i++){
             int min_index=i;
             for(int j=i+1;j<n;j++){
                 if(arr[min_index]>arr[j]){
+					//updating min_index
                     min_index=j;
                 }
             }
@@ -23,6 +25,7 @@ public class SelectionSort{
             arr[min_index]=temp;
         }
     }
+	//printing the array
     public static void printArr(int[] arr){
         for(int el:arr){
             System.out.print(el+" ");
