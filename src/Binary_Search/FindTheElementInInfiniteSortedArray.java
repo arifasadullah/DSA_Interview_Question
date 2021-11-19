@@ -1,2 +1,7 @@
-package Binary_Search;public class FindTheElementInInfiniteSortedArray {
+package Binary_Search;
+
+public class FindTheElementInInfiniteSortedArray {
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
 }
