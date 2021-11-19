@@ -1,6 +1,8 @@
+package Sorting;
+
 import java.util.*;
 
-public class test{
+class test{
  public static void main(String[] args){
     int [] arr={2,1,0,1,4,5,8,52};
 	quickSort(arr,0,arr.length-1);

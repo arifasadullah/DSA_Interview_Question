@@ -1,4 +1,6 @@
-public class SelectionSort{
+package Sorting;
+
+class SelectionSort{
 	 public static void main(String[] args){
         System.out.println("Array before sorting..");
         int[] arr={2,6,1,5,0,5,10};
